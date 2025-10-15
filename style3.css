@@ -1,0 +1,218 @@
+body {
+   font-family: "Roboto", sans-serif;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+
+     /* Navbar css */
+
+nav {
+     width: 100%;
+    height: fit-content;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px 169.657px;
+    position: fixed;
+    background-color: white;
+      box-shadow: 0px 2px 5px rgb(231, 231, 231);
+     z-index: 999;
+ 
+  
+}
+
+nav img {
+    width: 100x;
+    height: 100px;
+} 
+
+
+nav div a {
+font-size: 18px;
+font-weight: 500;
+font-family: "Oswald", sans-serif;
+padding: 0px 16px;
+text-decoration: none;
+color: black;
+letter-spacing: 0.1px;
+transition: all,0.3s ease-in-out ;
+}
+
+naV div a:hover {
+    color: rgb(254, 180, 41);
+}
+
+@media (max-width: 720px) {
+  nav {
+    padding: 0;
+  }
+}
+  
+
+      /* Location Css */
+      /* section 1 to 10 css */
+.branches {
+    padding-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.branches h2 {
+font-weight: 500;
+font-size: 60px;
+color: #283034;
+font-family: "Oswald", sans-serif;
+margin: 30px 0px 8px 0px;
+width: 75%;
+
+}
+
+.branches p {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #000; 
+    margin: 12px 0 0 0;
+    font-weight: 600;
+    width: 75%;
+
+}
+
+      /*Section 1 to 10 cards css  */
+
+.cards {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+   
+   
+}  
+
+.card {
+    margin: 20px 15px 30px 15px;
+    width: 350px !important;
+    height: 270px !important;
+     box-shadow: 2px 3px 7px rgb(198, 198, 198);
+    
+  
+   
+
+}
+
+.card-title {
+    font-size: 26px;
+    color: #333333;
+    font-family: "Oswald", sans-serif;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #757575;
+   font-family: "Roboto", sans-serif;
+   text-transform: uppercase;
+   margin-top: 15px;
+}
+
+
+.card-body div a {
+    color: #333333;
+    font-family: "Roboto", sans-serif;
+    font-size: 15.6px;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+
+
+}
+.card-body .btn {
+    background-color: red ; 
+    border: none ;
+    padding: 15px 12px ;
+    font-size: 16px ;
+    border-radius: 10px ;
+    font-family: "Roboto", sans-serif !important;
+    margin: 20px 0 0 174px;
+    font-weight: 600;
+    transition: all,0.5s ease-in-out ;
+}
+
+.card-body .btn:hover{
+    color: rgb(29, 29, 29);
+    background-color: red;
+}
+
+
+         /* Page icons css */
+
+
+
+.page-icons span {
+    width: 50px;
+    height: 50px;
+    background-color: #e3000ef2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    
+}
+
+#up-arrow {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    right: 20px;
+     transition: all,0.5s ease-in-out ;
+    
+}
+.page-icons span:hover{
+    background-color: #757575;
+}
+
+     /* Footer css */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}     
+
+.footer .ft-img {
+   margin-bottom: 35px;
+}     
+
+.footer .ft-img img {
+    width: 125px;
+    height: 125px;
+}  
+
+.ft-icons {
+    margin-bottom: 25px;
+    gap: 10px;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
+
+.ft-icons i {
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+
+
+
+.footer p {
+     font-family: "Roboto", sans-serif;
+     font-size: 17px;
+     font-weight: 300;
+     cursor: pointer;
+}

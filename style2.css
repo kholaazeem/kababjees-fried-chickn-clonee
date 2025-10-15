@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+img {
+    width: 95%;
+    height: 50%;
+    border-radius: 30px;
+     margin-left: 74px; 
+    
+  
+}
+
+
+
+
+div h5 {
+    font-size: 20.6px;
+    color: #000000;
+    margin-bottom: 8.24px;
+   font-weight: bold;
+   margin: 45px 0px 25px 90px;
+}
+
+.brand-btns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 80px;
+    
+  
+}
+
+
+.brand-btns button {
+    font-size: 13.184px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 0 15px 15px;
+    width: 150px;
+    height: 65px;
+    text-align: start;
+    
+    
+}
+
+#sub-btn {
+    font-size: 16.48px;
+    padding: 7.18px 12.38px;
+    background-color: #ed2320;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0px 0px 105px;
+}

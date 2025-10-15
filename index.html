@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kababjees Fried Chicken | Fast, Fresh, and Flavorful!</title>
+    <link rel="shortcut icon" href="assets/favicon.jpeg" type="image/x-icon">
+        <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Google font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">     
+        <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">     
+        <!-- Css link -->
+    <link rel="stylesheet" href="style.css">     
+
+</head>
+<body>
+            
+   <section>
+
+            <!-- bg screenshot -->
+
+       <img src="assets/bg-ss.png" alt="" class="bg-ss">
+
+            <!-- Navbar -->
+
+       <div class="navbar" id="go-to-navbar">
+         <div class="nav-options1">
+            <button class="location" >
+                <img src="assets/Location-icon.webp" alt="">
+                <div class="location-text">
+                  <span>Change Location</span>
+                  <span id="address">Chanesar Goth</span>
+                </div>
+            </button>
+            <div class="contact">
+                <i class="fa-solid fa-phone"></i>
+                <span>021-111-666-111</span>
+            </div>
+         </div>
+         <img class="logo" src="assets/logo.webp" alt="" >
+         <div >
+            <div class="complain-btn">
+                <button class="sub-btn">Submit Your Complaint</button>
+                <img src="assets/Cart-icon.webp" alt="" width="10px" class="cart">
+                <span class="line"></span>
+                <img class="toggler-btn" src="assets/hamburger-icon.webp" alt="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></img>
+               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+               <div class="offcanvas-header">
+               <h5 id="offcanvasRightLabel"></h5>
+               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+               </div>
+               <div class="offcanvas-body">
+                  <button onclick="openComplaintPg()">Submit your compaint</button>
+                  <button onclick="openLocationPg()">Our Locations</button>
+                  <button onclick="openBlogPg()">Blog</button>
+                  <button onclick="openDiscountsPg()">Bank Discounts</button>
+                  <p>Powered by <a href="">Indolj</a></p>
+                  
+               </div>
+               </div>
+            </div>
+         </div>
+       </div>
+            <!-- Hero section -->
+             
+        <img class="hero-img" src="assets/hero-img.webp" alt="">
+
+           <!--items list  -->
+     
+    <div class="items-list">
+        <a href="#section1">
+            <img src="assets/pic1.webp" alt="">
+            <p>Summer deals</p>
+        </a>
+
+        <a href="#section2">
+            <img src="assets/pic2.webp" alt="">
+            <p>The Original <br>Korean Range</p>
+        </a>
+
+        <a href="#section3">
+            <img src="assets/pic3.webp" alt="">
+            <p>Wing it (8 Pc <br>Buckets)</p>
+        </a>
+
+        <a href="#section4">
+            <img src="assets/pic4.webp" alt="">
+            <p>Something Sweet</p>
+        </a>
+
+        <a href="#section5">
+            <img src="assets/pic5.webp" alt="">
+            <p>New Arrival</p>
+        </a>
+
+        <a href="#section6">
+            <img src="assets/pic6.webp" alt="">
+            <p>Its Fishtastic</p>
+        </a>
+
+        <a href="#section7">
+            <img src="assets/pic7.webp" alt="">
+            <p>Chicky Bites</p>
+        </a>
+
+        <a href="#section8">
+            <img src="assets/pic8.webp" alt="">
+            <p>Meal Deals</p>
+        </a>
+
+        <a href="#section9">
+            <img src="assets/pic9.webp" alt="">
+            <p>Exclusive Family <br>Deals</p>
+        </a>
+       
+    </div>       
+
+              <!--Search bar  -->
+     <div class="search-bar" >
+      <div class="search-input">
+        <input type="text"  placeholder="Search for summer deal...." id="go-for-search"> 
+        <span><i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+     </div> 
+
+          <!-- Popular items -->
+
+   <div class="popular-items">
+    <div class="popular-text">
+        <h2> <i class="fa-solid fa-fire-flame-curved"></i> Popular Items</h2>
+        <p>Most ordered right now</p>
+    </div>
+    <div class="popular-cards">
+        <div class="cards">
+            <h2>SUMMER DEAL 1</h2>
+            <img src="assets/img1.webp" alt="">
+            <span>Rs.620</span>
+        </div>
+
+        <div class="cards">
+            <h2>Chick N' Crunch Burger</h2>
+            <img src="assets/img2.webp" alt="">
+            <span>Rs.310</span>
+        </div>
+
+        <div class="cards">
+            <h2>THE MAJESTY</h2>
+            <img src="assets/img3.webp" alt="">
+            <span>Rs.770</span>
+        </div>
+
+        <div class="cards">
+            <h2>Ultimate Crunch Feast</h2>
+            <img src="assets/img4.webp" alt="">
+            <span>Rs.1560</span>
+        </div>
+    </div>      
+ </div>
+             <!-- icons on page -->
+ <div class="page-icons">
+   <a href="#go-for-search"><span id="search-icon"><i class="fa-solid fa-magnifying-glass" ></i></span></a>
+   <a href="#go-to-navbar"><span  id="up-arrow"><i class="fa-solid fa-arrow-up"></i></span></a>
+ </div>
+</section> 
+          <!-- Section 1 -->
+    
+ <section id="section1">
+    <div class="section1-img">
+        <img src="assets/sec1-banner.webp" alt="">
+    </div>
+
+         <!-- Section 1 cards -->
+
+    <div class="section1-cards">
+       <div class="card">
+         <img src="assets/sec1-img1.webp" alt="">
+         <h2>3 Pc StripZilla+1.5 L... </h2>
+         <p id="empty-para"></p>
+         <div>
+            <span>Rs. 1190</span>
+            <button>ADD</button>
+         </div>
+       </div>
+
+       <div class="card">
+         <img src="assets/sec1-img2.webp" alt="">
+         <h2>SUMMER DEAL 1</h2>
+         <p>Chick N Crunch, Crispy Chicken <span id="dis"> Pc &amp; Regular Drink [Can/345ml Drink]..</span></p>
+
+         <div>
+            <span>Rs. 620</span>
+            <button>ADD</button>
+         </div>
+       </div>
+    </div>
+ </section>
+
+            <!-- Section 2  -->
+
+ <section id="section2">
+    <div class="section2-vid">
+       <video autoplay muted loop >
+          <source src="assets/sec2-vid.webm" type="video/webm">
+       </video>
+    </div>
+
+            <!-- Section 2 cards -->
+
+    <div class="section2-cards">
+       <div class="card">
+         <img src="assets/sec2-img1.webp" alt="">
+         <h2>ORIGNAL KOREAN DE...</h2>
+         <p>Original Korean Burger x 2qty <span class="dis"> Original Korean Chicky Bites 9Pc Original...</span></p>
+         <div>
+            <span>Rs. 2990</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec2-img2.webp" alt="">
+         <h2>ORIGINAL KOREAN...</h2>
+         <p>Crispy fries tossed in a tantalizing <span class="dis"> salsa powder, topped with our...</span></p>
+         <div>
+            <span>Rs. 650</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec2-img3.webp" alt="">
+         <h2>ORIGINAL KOREAN RICE </h2>
+         <p>Fragrant rice, infused with a  <span class="dis"> buttery richness, served with crispy Hot ...</span></p>
+         <div>
+            <span>Rs. 490</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec2-img4.webp" alt="">
+         <h2>ORIGINAL KOREAN... </h2>
+         <p>Known for their bold flavors  <span class="dis"> and intense heat, Korean spicy ramen is...</span></p>
+         <div>
+            <span>Rs. 900</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec2-img5.webp" alt="">
+         <h2>ORIGINAL KOREAN... </h2>
+         <p>Indulge in our one of a  <span class="dis"> kind burger featuring soft, handcrafted red buns...</span></p>
+         <div>
+            <span>Rs. 650</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec2-img6.webp" alt="">
+         <h2>ORIGINAL KOREAN HO... </h2>
+         <p>Savor the perfect blend  <span class="dis"> of heat and flavor with our crispy, golden wings,...</span></p>
+         <div>
+            <span>Rs. 699</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec2-img7.webp" alt="">
+         <h2>ORIGINAL KOREAN... </h2>
+         <p>Bite-sized crispy chicken,  <span class="dis"> coated in our mouthwatering Korean sauce,...</span></p>
+         <div>
+            <span>Rs. 550</span>
+            <button>ADD</button>
+         </div>
+        </div>
+    </div>        
+ </section>  
+ 
+                  <!-- Section 3 -->
+
+ <section id="section3">
+    <div class="section3-img">
+        <img src="assets/sec3-banner.webp" alt="">
+    </div>
+
+            <!-- Section 3 cards -->
+
+    <div class="section3-cards">
+        <div class="card">
+         <img class="batch" src="assets/best-seller.webp" alt="">   
+         <img src="assets/sec3-img1.webp" alt="">
+         <h2>PLAIN CRISPY WINGS...</h2>
+         <p>8 Pcs. Crisp to perfection,<span class="dis"> our crispy yet juicy bucket of wings. </span></p>
+         <div>
+            <span>Rs. 640</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img class="batch" src="assets/new-arrival.webp" alt="">   
+         <img src="assets/sec3-img2.webp" alt="">
+         <h2>SIZZLING SALSA...</h2>
+         <p>8 Pcs. Spices to perfection,<span class="dis"> dusted with our special sizzling salsa...</span></p>
+         <div>
+            <span>Rs. 640</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img class="batch" src="assets/new-arrival.webp" alt="">    
+         <img src="assets/sec3-img3.webp" alt="">
+         <h2>BUFFALO SPICY WIN...</h2>
+         <p>8 pcs. Our crispy take <span class="dis">on wings topped with tangy spicy buffalo...</span></p>
+         <div>
+            <span>Rs. 640</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img class="batch"src="assets/new-arrival.webp" alt="">    
+         <img src="assets/sec3-img4.webp" alt="">
+         <h2>THAI SWEET CHILLI...</h2>
+         <p>8 pcs. Crispy Fried wings,<span class="dis"> tossed in sweet yet spicy chili sauce for a...</span></p>
+         <div>
+            <span>Rs. 640</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img class="batch"src="assets/new-arrival.webp" alt="">    
+         <img src="assets/sec3-img5.webp" alt="">
+         <h2>HONEY MUSTARD</h2>
+         <p>8 Pcs. Crispy fried wings,<span class="dis"> tossed in sweet yet delcious honey mustard...</span></p>
+         <div>
+            <span>Rs. 640</span>
+            <button>ADD</button>
+         </div>
+        </div>
+    </div>        
+ </section>  
+ 
+            <!-- Section 4  -->
+
+ <section id="section4">
+    <div class="section4-img">
+        <img src="assets/sec4-banner.webp" alt="">
+    </div>
+
+            <!-- Section 4 cards -->
+
+    <div class="section4-cards">
+        <div class="card">
+         <img src="assets/sec4-img1.webp" alt="">
+         <h2>RED VELVET CAKE IN...</h2>
+         <p>Layers of classic red velvet sponge cake paired with smooth, cream...</p>
+         <div>
+            <span>Rs. 290</span>
+            <button>ADD</button>
+         </div>
+       </div>
+
+       <div class="card">
+         <img src="assets/sec4-img2.webp" alt="">
+         <h2>CHOCO-HEAVEN CAK... </h2>
+         <p>layers of moist chocolate sponge, rich chocolate ganache, and...</p>
+         <div>
+            <span>Rs. 290</span>
+            <button>ADD</button>
+         </div>
+       </div>
+    </div>        
+ </section>   
+ 
+             <!-- Section 5 -->
+
+ <section id="section5">
+    <div class="section5-img">
+        <img src="assets/sec5-banner.webp" alt="">
+    </div>
+
+             <!-- Section 5 cards -->
+
+    <div class="section5-cards">
+        <div class="card">
+         <img src="assets/sec5-img1.webp" alt="">
+         <h2>CRUNCHY CHEESEY...</h2>
+         <p>A hearty bed of rice <span class="dis">topped with crispy, golden chicken bites, drizzled...</span></p>
+         <div>
+            <span>Rs. 390</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+         <div class="card">
+         <img src="assets/sec5-img2.webp" alt="">
+         <h2>CRUNCHY CHEESEY...</h2>
+         <p>A mountain of crispy fries <span class="dis">oaded with crunchy chicken bites, smothered in...</span>l</p>
+         <div>
+            <span>Rs. 550</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+         <div class="card">
+         <img src="assets/sec5-img3.webp" alt="">
+         <h2>DOUBLE DECKER</h2>
+         <p>Two double-patty burgers <span class="dis">topped with jalapeños and paired with a...</span></p>
+         <div>
+            <span>Rs.670</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec5-img4.webp" alt="">
+         <h2>SPICY GIGANTIC...</h2>
+         <p>A warm tortilla wrapped <span class="dis"></span>around a mouthwatering medley of crispy...</span></p>
+         <div>
+            <span>Rs. 550</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+         <div class="card">
+         <img src="assets/sec5-img5.webp" alt="">
+         <h2>RICE N SPICE</h2>
+         <p>Savory spiced rice infused <span class="dis">with buttery richness, perfectly paired wi...</span></p>
+         <div>
+            <span>Rs. 390</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+         <div class="card">
+         <img src="assets/sec5-img6.webp" alt="">
+         <h2>CLASSIC MAYO LOADE...</h2>
+         <p>Golden, crispy fries  <span class="dis">topped with tender, crunchy chicken chunks,...</span></p>
+         <div>
+            <span>Rs. 550</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img src="assets/sec5-img7.webp" alt="">
+         <h2>SPICY SALASA CHE...</h2>
+         <p>Crispy chips coated in <span class="dis">flavorful salsa powder, generously topped with a...</span></p>
+         <div>
+            <span>Rs. 550</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+         <div class="card">
+         <img src="assets/sec5-img8.webp" alt="">
+         <h2>STRIPZILLA</h2>
+         <p>A soft, cornmeal-dusted bun <span class="dis">stuffed with two crispy, crunchy chicken...</span></p>
+         <div>
+            <span>Rs. 390</span>
+            <button>ADD</button>
+         </div>
+        </div>
+
+        <div class="card">
+         <img class="batch"src="assets/new-arrival.webp" alt="">   
+         <img src="assets/sec5-img9.webp" alt="">
+         <h2>SIRACHA WRAP</h2>
+         <p id="empty-para"></p>
+         <div>
+            <span>Rs. 450</span>
+            <button>ADD</button>
+         </div>
+        </div>
+    </div>         
+ </section>  
+ 
+               <!-- Section 6 -->
+
+ <section id="section6">
+    <div class="section6-img">
+      <img src="assets/sec6-banner.webp" alt="">
+    </div>
+    
+              <!--Section 6 cards  -->
+    <div class="section6-cards">
+      <div class="card">
+         <img src="assets/sec6-img1.webp" alt="">
+         <h2>FISH & CHIPS WITH...</h2>
+         <p>A delectable duo of crispy, <span class="dis">golden-fried fish served alongside a...</span></p>
+         <div>
+            <span>Rs. 890</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="assets/sec6-img2.webp" alt="">
+         <h2>FISH & CHIPS WITH AL...</h2>
+         <p>A delectable duo of crispy,<span class="dis"> golden-fried fish, perfectly paired with a...</p></span>
+         <div>
+            <span>Rs. 890</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img src="assets/sec6-img3.webp" alt="">
+         <h2>FISH BURGER WITH...</h2>
+         <p>Perfectly crispy fried <span class="dis">fish nestled in soft, pillowy buns, paired with a rich...</p></span>
+         <div>
+            <span>Rs. 650</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="assets/sec6-img4.webp" alt="">
+         <h2>FISH BURGER WITH AL...</h2>
+         <p>Perfectly crispy fried <span class="dis">fish nestled in soft, fluffy buns, enhanced with...</span></p>
+         <div>
+            <span>Rs. 650</span>
+            <button>ADD</button>
+         </div>
+      </div>
+    </div>          
+ </section>    
+ 
+              <!-- Section 7 -->
+
+ <section id="section7">
+    <div class="section7-img">
+      <img src="assets/sec7-banner.webp" alt="">
+    </div>
+
+              <!-- Section 7 cards -->
+
+   <div class="section7-cards">
+      <div class="card">
+         <img src="assets/sec7-img1.webp" alt="">
+         <h2>SIZZLING SALSA...</h2>
+         <p>9 Pcs. Crisp to perfection<span class="dis"> chicken bites, dusted with our special sizzl...</span></p>
+         <div>
+            <span>Rs. 490</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="assets/sec7-img2.webp" alt="">
+         <h2>PLAIN CHICKEN BITE...</h2>
+         <p>9 Pcs. Crisp to perfection,<span class="dis"> our crispy yet juicy bucket of chicken bites...</span></p>
+         <div>
+            <span>Rs. 490</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="assets/sec7-img3.webp" alt="">
+         <h2>BUFFALO CHICKEN...</h2>
+         <p>9 Pcs. Crisp to perfection <span class="dis">  chicken bites, topped with tangy spicy buffal...</span></p>
+         <div>
+            <span>Rs. 490</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="assets/sec7-img4.webp" alt="">
+         <h2>THAI SWEET CHILLI...</h2>
+         <p>9 Pcs. Crisp to perfection  <span class="dis"> chicken bites, tossed in sweet yet spicy chilli...</span></p>
+         <div>
+            <span>Rs. 490</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+      <div class="card">
+         <img src="assets/sec7-img5.webp" alt="">
+         <h2>HONEY MUSTARD...</h2>
+         <p>9 Pcs. Crisp to perfection<span class="dis"> chicken bites, tossed in sweet yet delicious...</span> </p>
+         <div>
+            <span>Rs. 490</span>
+            <button>ADD</button
+         </div>
+      </div>
+   </div>           
+ </section>  
+ 
+              <!-- Section 8 -->
+
+ <section id="section8">
+   <div class="section8-img">
+      <img src="assets/sec8-banner.webp" alt="">
+   </div>
+
+             <!-- Section 8 cards -->
+
+   <div class="section8-cards">
+      <div class="card">
+         <img class="batch" src="assets/best-seller.webp" alt="">   
+         <img src="assets/sec8-img1.webp" alt="">
+         <h2>2 PIECE MEAL DEAL</h2>
+         <p>2 Crispy Chicken Piece, <span class="dis"> 1 Regular Fries, 1 Coleslaw [Can/345ml] (Sele...)</span></p>
+         <div>
+            <span>Rs. 710</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img src="assets/sec8-img2.webp" alt="">
+         <h2>ULTIMATE FEAST BOX</h2>
+         <p>5 piece Crispy Chicken,</span class="dis"> 1 Large Fries & 2 Regular drinks [Can/345ml]...</span></p>
+         <div>
+            <span>Rs. 1350</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img src="assets/sec8-img3.webp" alt="">
+         <h2>FLAVOUR CRAVER</h2>
+         <p>Zenga Burger, 1 Pc <span class="dis">Chicken, Regular Fries, Coleslaw & 1 Regular Drink...</span></p>
+         <div>
+            <span>Rs. 1050</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img class="batch" src="assets/Popular.webp" alt="">   
+         <img src="assets/sec8-img4.webp" alt="">
+         <h2>ULTIMATE CRUNCH...</h2>
+         <p>2 Zenga Burger, 2 Crispy<span class="dis"> Chicken Piece, 1 Large Fries, & 2 Regular Drink..</span></p>
+         <div>
+            <span>Rs. 1560</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img src="assets/sec8-img5.webp" alt="">
+         <h2>3 PC CRISPY CHICKEN</h2>
+         <p>(Selecting Chicken part is not Applicable on promotion Set) </p>
+         <div>
+            <span>Rs. 690</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img class="batch" src="assets/best-seller.webp" alt="">   
+         <img src="assets/sec8-img6.webp" alt="">
+         <h2>2PCS COMBO DEAL</h2>
+         <p>2 Pc Chicken + Fries+<span class="dis">  Dinner Roll + Al-Baik Sauce (Selecting Chicken part i...)</span></p>
+         <div>
+            <span>Rs. 620</span>
+            <button>ADD</button>
+         </div>
+      </div>
+   </div>          
+
+ </section>             
+
+ 
+              <!-- Section 9 -->
+
+ <section id="section9">
+   <div class="section9-img">
+      <img src="assets/sec9-banner.webp" alt="">
+   </div>
+
+             <!-- Section 9 cards -->
+
+   <div class="section9-cards">
+      <div class="card">
+         <img src="assets/sec9-img1.webp" alt="">
+         <h2>MEGA SNAK BOX</h2>
+         <p>9 Pcs Crispy Fried Chicken<span class="dis">(Selecting Chicken part is not Applicable on...)</span> </p>
+         <div>
+            <span>Rs. 2050</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img src="assets/sec9-img2.webp" alt="">
+         <h2>FAMILY COMBO 1</h2>
+         <p>4 Chick N' Crunch Burger, <span class="dis">4 Crispy Chicken Piece, 2 Dinner roll & 1.5 Litre...</span></p>
+         <div>
+            <span>Rs. 2190</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img class="batch" src="assets/House-Favorite-Tag.webp" alt="">   
+         <img src="assets/sec9-img3.webp" alt="">
+         <h2>FAMILY COMBO 2</h2>
+         <p>2 Zenga Burger, 2 Chick N' <span class="dis">Crunch Burger, 4 Crispy Chicken Pieces, 2... </span></p>
+         <div>
+            <span>Rs. 2390</span>
+            <button>ADD</button>
+         </div>
+      </div>
+
+       <div class="card">
+         <img src="assets/sec9-img4.webp" alt="">
+         <h2>FAMILY COMBO 3</h2>
+         <p>4 Zenga Burger, 4 Crispy<span class="dis"> Chicken Pieces, 2 dinner rolls & 1.5 Litre Drink...</span></p>
+         <div>
+            <span>Rs. 2590</span>
+            <button>ADD</button>
+         </div>
+      </div>
+   </div>          
+ </section>    
+ 
+             <!-- Footer top -->
+
+  <div class="footer-top">
+    <h1>Kababjees Fried Chicken – Redefining the fast-food experience with its exceptional fried chicken</h1>
+    <h6>This haven for fried chicken enthusiasts serves up an array of tantalizing options, featuring a menu that boasts the crispiest and most flavorful chicken in the city. At Kababjees Fried Chicken, each dish is a masterpiece, from the classic Crispy Chicken to the ever-popular Crispy Zenga Burger. <br><br>Our Kababjees Fried Chicken menu is carefully curated to ensure every bite is a delightful experience. Whether you're craving Crispy Chicken Wings or the best fried chicken in Karachi, our menu is designed to cater to all tastes. What sets us apart is</h6>
+     <a href="#">Show More</a>
+  </div>  
+  
+             <!-- Main Footer -->
+
+   <div class="main-footer">
+      <div class="footer-content">
+         <img class="footer-logo" src="assets/Logo-White.webp" alt="">
+         <div class="footer-links">
+            <div>
+               <h6>Information</h6>
+               <a href="location-pg.html">Our Locations</a>
+               <a href="blog-pg.html">Blog</a>
+               <a href="complain-pg.html">Submit Your Complaint</a>
+               <a href="BANK-ISLAMI-FRIED-CHICKEN.pdf">Bank Discounts</a>
+            </div>
+            <div>
+               <h6>Contact us</h6>
+               <a href="">021-111-666-111</a>
+            </div>
+         </div>
+         <img class="mobile-img"src="assets/mobile-mockup.webp" alt="">
+         <div class="app-section">
+            <h4>Get The App!</h4>
+            <p>App is where the fun is! it's <br>Easy,Fast and Convenient</p>
+            <div class="app-links">
+               <img src="assets/app-store.webp" alt="">
+               <img src="assets/google-play.webp" alt="">
+            </div>
+         </div>
+      </div>
+   </div>    
+   
+             <!-- Footer Bottom -->
+
+   <div class="footer-bottom">
+      <p>
+         <b>Powered by</b>
+         <a id="indolj"  href="">Indolj</a>
+         <span>|</span>
+         <a href="">Privicy Policy.</a>
+         <span>|</span>
+         <a href="">Faqs</a>
+      </p>
+   </div>          
+
+
+   
+
+
+
+
+   <!--  Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      
+    </script>
+
+    <script>
+  function openComplaintPg() {
+    window.open("complain-pg.html","complaint pg");
+  }
+
+  function openLocationPg() {
+   window.open("location-pg.html" , "location pg")
+  }
+
+   function openBlogPg() {
+   window.open("blog-pg.html" , "blog pg")
+  }
+
+   function openDiscountsPg() {
+   window.open("BANK-ISLAMI-FRIED-CHICKEN.pdf" , "Bank discounts  pg")
+  }
+</script>
+</body>
+</html>
