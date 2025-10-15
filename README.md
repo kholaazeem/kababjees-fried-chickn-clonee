@@ -30,8 +30,11 @@ This project was created to practice layout design, responsiveness, and modern U
 ##  Screenshots
 | Desktop View | Mobile View |
 |---------------|--------------|
-| ![Desktop Screenshot](![screen](https://github.com/user-attachments/assets/50600b68-fe94-4f1e-8cbf-0e7548885aee)
-) | ![Mobile Screenshot](![screen01](https://github.com/user-attachments/assets/69105c92-0b26-4d57-a5d4-1d1e538a809b)
+| ![Desktop Screenshot]![kababjees  desktop view](https://github.com/user-attachments/assets/11b661e6-0327-4fa6-b14b-bd66b0520beb)
+
+
+) | ![Mobile Screenshot]![kababjees mobile view](https://github.com/user-attachments/assets/8137f23e-2839-42dc-9167-6fd76295de03)
+
 )
 |
 
