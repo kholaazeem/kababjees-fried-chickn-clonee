@@ -50,4 +50,4 @@ This project was created to practice layout design, responsiveness, and modern U
 ##  How to Run Locally
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/kababjees-fried-chicken-clone.git
+   git clone https://github.com/kholaazeem/kababjees-fried-chickn-clonee.git
